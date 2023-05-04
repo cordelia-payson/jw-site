@@ -10,7 +10,7 @@ export default function Header() {
           <li><a>NS Queer History</a></li>
         </ul>
       </div>
-      <a className="navbar-center hidden lg:flex  btn btn-ghost normal-case text-xl">Jess Wilton</a>
+      <a className="navbar-center hidden lg:flex btn btn-ghost normal-case text-xl">Jess Wilton</a>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li><a>Research</a></li>
@@ -20,7 +20,6 @@ export default function Header() {
       </div>
 
       {/* small screen/mobile with dropdown */}
-
       <a className="navbar-center lg:hidden btn btn-ghost normal-case text-xl">Jess Wilton</a>
       <div className="navbar-end">
         <div className="dropdown">

@@ -1,3 +1,12 @@
+import Header from './header.js';
+import Footer from './footer.js';
+
 export default function Layout({ children }) {
-  return <div className="text-red-900">{children}</div>;
+  return (
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
 }

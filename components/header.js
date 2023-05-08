@@ -12,11 +12,11 @@ function Header() {
           <li><Link href="/history">NS Queer History</Link></li>
         </ul>
 
-        <Link href="/" className="navbar-center lg:hidden btn btn-ghost normal-case text-xl">Jess Wilton</Link>
+        <Link href="/" className="lg:hidden text-xl font-bold border-none">Jess Wilton</Link>
       </div>
 
       <div className="navbar-center">
-        <Link href="/" className="btn btn-ghost normal-case text-xl lg:flex hidden">Jess Wilton</Link>
+        <Link href="/" className="normal-case text-xl lg:flex hidden font-bold border-none">Jess Wilton</Link>
       </div>
 
       <div className="navbar-end">

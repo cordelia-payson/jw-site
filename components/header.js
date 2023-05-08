@@ -12,7 +12,9 @@ function Header() {
           <li><Link href="/history">NS Queer History</Link></li>
         </ul>
       </div>
-      <Link href="/" className="navbar-center hidden lg:flex btn btn-ghost normal-case text-xl">Jess Wilton</Link>
+      <div className="navbar-center hidden lg:flex">
+        <Link href="/" className="btn btn-ghost normal-case text-xl">Jess Wilton</Link>
+      </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li><Link href="/research">Research</Link></li>

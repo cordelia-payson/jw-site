@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import HeaderLink from './link.js';
 
 function Header() {
   return (
@@ -7,24 +8,24 @@ function Header() {
       <div className="navbar-start">
 
         <ul className="menu menu-horizontal px-1 lg:flex hidden">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/history">NS Queer History</Link></li>
+          <li><HeaderLink page="/" name="Home" /></li>
+          <li><HeaderLink page="/about" name="About" /></li>
+          <li><HeaderLink page="/history" name="NS Queer History" /></li>
         </ul>
 
         <Link href="/" className="lg:hidden text-xl font-bold border-none">Jess Wilton</Link>
       </div>
 
       <div className="navbar-center">
-        <Link href="/" className="normal-case text-xl lg:flex hidden font-bold border-none">Jess Wilton</Link>
+        <Link href="/" className="normal-case text-xl lg:flex hidden border-none link-hover">Jess Wilton</Link>
       </div>
 
       <div className="navbar-end">
 
         <ul className="menu menu-horizontal px-1 lg:flex hidden">
-          <li><Link href="/research">Research</Link></li>
-          <li><Link href="/cv">CV</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
+          <li><HeaderLink page="/research" name="Research" /></li>
+          <li><HeaderLink page="/cv" name="CV" /></li>
+          <li><HeaderLink page="/contact" name="Contact" /></li>
         </ul>
 
         <div className="dropdown">
@@ -32,12 +33,12 @@ function Header() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </label>
           <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/history">NS Queer History</Link></li>
-            <li><Link href="/research">Research</Link></li>
-            <li><Link href="/cv">CV</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><HeaderLink page="/" name="Home" /></li>
+            <li><HeaderLink page="/about" name="About" /></li>
+            <li><HeaderLink page="/history" name="NS Queer History" /></li>
+            <li><HeaderLink page="/research" name="Research" /></li>
+            <li><HeaderLink page="/cv" name="CV" /></li>
+            <li><HeaderLink page="/contact" name="Contact" /></li>
           </ul>
         </div>
       </div>

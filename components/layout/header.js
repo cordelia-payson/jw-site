@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import HeaderLink from './link.js';
+import NameLink from './nameLink.js';
 
 function Header() {
   return (
@@ -13,11 +14,16 @@ function Header() {
           <li><HeaderLink page="/history" name="NS Queer History" /></li>
         </ul>
 
-        <Link href="/" className="lg:hidden text-xl font-bold border-none">Jess Wilton</Link>
+        <div className="lg:hidden">
+          <NameLink />
+        </div>
+
       </div>
 
       <div className="navbar-center">
-        <Link href="/" className="normal-case text-xl lg:flex hidden border-none link-hover">Jess Wilton</Link>
+        <div className="lg:flex hidden">
+          <NameLink />
+        </div>
       </div>
 
       <div className="navbar-end">

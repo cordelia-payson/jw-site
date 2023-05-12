@@ -3,7 +3,7 @@ import Footer from './footer.js';
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
       {children}
       <Footer />

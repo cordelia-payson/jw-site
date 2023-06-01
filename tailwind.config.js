@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -6,12 +7,25 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-nanum)'],
+      },
+    },
   },
-  plugins: [require("daisyui")],
+  plugins: [require('daisyui')],
   daisyui: {
     themes: [
-      'garden',
+      {
+        myTheme: {
+          primary: '#FAEDCD',
+          secondary: '#CCD5AE',
+          'secondary-content': '#000000',
+          accent: '#F2B6A0',
+          neutral: '#e7e5e4',
+          'base-100': '#Ffffff',
+        },
+      },
     ],
   },
 };

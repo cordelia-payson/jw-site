@@ -3,7 +3,6 @@ function Form() {
     <div>
       <div>
         <label htmlFor="name">
-          Your Name
           <input id="name" type="text" placeholder="Name" className="input border-solid border-0 border-b border-black rounded-none w-full max-w-xs" />
 
         </label>
@@ -18,7 +17,7 @@ function Form() {
       <div>
         <label htmlFor="message">
           Your Message
-          <textarea id="message" className="textarea textarea-bordered w-full max-w-xs" placeholder="Message" />
+          <textarea id="message" className="textarea border-solid border-0 border-b border-black rounded-none w-full max-w-xs" placeholder="Message" />
         </label>
       </div>
       <button type="button" className="btn btn-outline">Send Message</button>

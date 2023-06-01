@@ -6,7 +6,7 @@ import NameLink from './nameLink.js';
 function Header() {
   const router = useRouter();
   return (
-    <div className="navbar bg-base-100 border-b border-black">
+    <div className="navbar bg-base-100 border-b border-black bg-secondary">
 
       <div className="navbar-start">
 

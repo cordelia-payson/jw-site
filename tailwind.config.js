@@ -16,7 +16,16 @@ module.exports = {
   plugins: [require('daisyui')],
   daisyui: {
     themes: [
-      'garden',
+      {
+        myTheme: {
+          primary: '#FAEDCD',
+          secondary: '#CCD5AE',
+          'secondary-content': '#000000',
+          accent: '#e7e5e4',
+          neutral: '#e7e5e4',
+          'base-100': '#Ffffff',
+        },
+      },
     ],
   },
 };

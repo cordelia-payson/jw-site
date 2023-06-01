@@ -5,7 +5,7 @@ import Form from '../components/contact/form.js';
 function Contact() {
   return (
     <Layout>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen bg-base-100">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold py-4">Get in touch!</h1>

@@ -12,7 +12,6 @@ function Contact() {
             <p className="">jesswilton@email.com</p>
             <p className="">jesswilton@email.com</p>
             <p>social media icons</p>
-            <Form />
           </div>
         </div>
       </div>

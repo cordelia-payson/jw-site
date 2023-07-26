@@ -1,9 +1,11 @@
-import CVTitle from './cvTitle.js';
+import Category from './category.js';
+import Year from './year.js';
 
 function Education() {
   return (
     <div>
-      <CVTitle title="Education" />
+      <Category category="Education" />
+      <Year year="2012" />
     </div>
   );
 }

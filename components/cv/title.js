@@ -1,6 +1,6 @@
 function Title({ title }) {
   return (
-    <div className="m-1">{title}</div>
+    <div className="m- text-xl">{title}</div>
   );
 }
 

@@ -7,10 +7,10 @@ function CV() {
     <Layout>
       <div className="flex flex-col items-center justify-center">
         <div>
-          <h1 className="text-4xl font-bold w-max m-4">Curriculum Vitae</h1>
+          <h1 className="text-4xl w-max m-4">Curriculum Vitae</h1>
         </div>
-        <div className="">
-          <div className="" />
+        <div className="hero min-h-screen">
+          <div className="hero-content" />
           <Education />
         </div>
       </div>

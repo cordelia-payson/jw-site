@@ -1,6 +1,6 @@
 function Year({ year }) {
   return (
-    <div>{year}</div>
+    <div className="m-1">{year}</div>
   );
 }
 

@@ -1,11 +1,18 @@
-import Category from './category.js';
+import Title from './title.js';
 import Year from './year.js';
+import SubTitle from './subTitle.js';
 
 function Education() {
   return (
-    <div>
-      <Category category="Education" />
-      <Year year="2012" />
+    <div className="flex flex-col">
+      <Title title="Education" />
+      <div className="flex flex-row">
+        <Year year="2012" />
+        <div className="flex flex-col">
+          <SubTitle subtitle="King's" />
+          <SubTitle subtitle="Queen's" />
+        </div>
+      </div>
     </div>
   );
 }

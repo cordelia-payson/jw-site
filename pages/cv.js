@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Layout from '../components/layout/layout.js';
-import Education from '../components/cv/education.js';
+import Education from '../components/cv/sections/education.js';
 
 function CV() {
   return (

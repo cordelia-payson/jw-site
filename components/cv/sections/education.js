@@ -1,7 +1,7 @@
-import Title from './title.js';
-import Year from './year.js';
-import SubTitle from './subTitle.js';
-import Bullet from './bullet.js';
+import Title from '../title.js';
+import Year from '../year.js';
+import SubTitle from '../subTitle.js';
+import Bullet from '../bullet.js';
 
 function Education() {
   return (

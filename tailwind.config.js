@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-nanum)'],
+        sans: ['var(--font-lora)'],
       },
     },
   },

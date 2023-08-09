@@ -8,9 +8,9 @@ function Education() {
     <div className="flex flex-col">
       <Title title="Education" />
       <div className="flex flex-row">
-        <Year year="2012" />
+        <Year year="2021-Current" />
         <div className="flex flex-col">
-          <SubTitle subtitle="King's" />
+          <SubTitle bold="PhD in History," italic="York University, Toronto ON" />
           <Bullet bullet="Major Comprehensive Fields: Canadian History & Gender, Women, &
 Sexualities"
           />

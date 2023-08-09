@@ -6,7 +6,10 @@ function Interests() {
   return (
     <div className="flex flex-col ml-0">
       <Title title="Teaching & Research Interests" />
-      {interests.map((interest) => <Bullet bullet={interest} />)}
+      <div className="ml-36">
+        {interests.map((interest) => <Bullet bullet={interest} />)}
+      </div>
+
     </div>
   );
 }

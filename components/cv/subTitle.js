@@ -1,4 +1,4 @@
-function SubTitle({ bold, italic }) {
+function Subtitle({ bold, italic }) {
   return (
     <div className="flex flex-row">
       <div className="m-1 font-bold">{bold}</div>
@@ -7,4 +7,4 @@ function SubTitle({ bold, italic }) {
   );
 }
 
-export default SubTitle;
+export default Subtitle;

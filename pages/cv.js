@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Layout from '../components/layout/layout.js';
 import Education from '../components/cv/sections/education.js';
+import Awards from '../components/cv/sections/awards.js';
+import Interests from '../components/cv/sections/interests.js';
 
 function CV() {
   return (
@@ -9,9 +11,11 @@ function CV() {
         <div>
           <h1 className="text-4xl w-max m-4">Curriculum Vitae</h1>
         </div>
-        <div className="hero min-h-screen m-6">
-          <div className="hero-content">
+        <div className="min-h-screen m-6">
+          <div className="flex flex-col">
             <Education />
+            <Awards />
+            <Interests />
           </div>
         </div>
       </div>

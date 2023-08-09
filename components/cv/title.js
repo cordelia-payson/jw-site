@@ -1,6 +1,6 @@
 function Title({ title }) {
   return (
-    <div className="ml-0 text-xl">{title}</div>
+    <div className="ml-0 text-xl font-bold">{title}</div>
   );
 }
 

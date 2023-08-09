@@ -3,6 +3,7 @@ import Layout from '../components/layout/layout.js';
 import Education from '../components/cv/sections/education.js';
 import Awards from '../components/cv/sections/awards.js';
 import Interests from '../components/cv/sections/interests.js';
+import Professional from '../components/cv/sections/professional.js';
 
 function CV() {
   return (
@@ -16,6 +17,7 @@ function CV() {
             <Education />
             <Awards />
             <Interests />
+            <Professional />
           </div>
         </div>
       </div>

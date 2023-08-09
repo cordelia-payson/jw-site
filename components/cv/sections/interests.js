@@ -4,9 +4,9 @@ import { interests } from '../info.js';
 
 function Interests() {
   return (
-    <div className="flex flex-col ml-0">
+    <div className="flex flex-col">
       <Title title="Teaching & Research Interests" />
-      <div className="ml-36">
+      <div className="">
         {interests.map((interest) => <Bullet bullet={interest} />)}
       </div>
 

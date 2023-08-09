@@ -6,7 +6,7 @@ import { york, queens, kings } from '../info.js';
 
 function Education() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ml-0">
       <Title title="Education" />
       <div className="flex flex-col">
 

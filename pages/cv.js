@@ -9,9 +9,10 @@ function CV() {
         <div>
           <h1 className="text-4xl w-max m-4">Curriculum Vitae</h1>
         </div>
-        <div className="hero min-h-screen">
-          <div className="hero-content" />
-          <Education />
+        <div className="hero min-h-screen m-6">
+          <div className="hero-content">
+            <Education />
+          </div>
         </div>
       </div>
 

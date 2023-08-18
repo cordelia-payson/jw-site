@@ -59,3 +59,37 @@ export const professional = [
     bullets: ['Acted as an editing research assistant for her upcoming book Art From the Margins on Saskatchewan and visual culture.'],
   },
 ];
+
+// volunteer experience
+export const volunteer = [
+  {
+    year: '2023-Present',
+    bold: 'Education Committee Member, ',
+    italic: 'Nova Scotia Rainbow Action Project',
+    bullets: ['Deliver educational presentations and training to business and non-profits on sexual orientation, gender identity, gender expression and sex characteristics (SOGIESC)'],
+  },
+  {
+    year: '2020-Present',
+    bold: 'Community Advisory Committee, ',
+    italic: 'NS LGBT Seniors Archive',
+    bullets: ['Organized volunteers and collected oral histories for the archive’s lesbian oral history project', 'Attend meetings as part of the community advisory board', 'Currently aiding in the facilitation of an event on lesbian pulp fiction'],
+  },
+  {
+    year: '2022',
+    bold: 'New Frontiers Conference Co-Chair, ',
+    italic: 'York University, GHSA',
+    bullets: ['Aided in the creation of the conference theme “aftermaths” and co-wrote the call for papers', 'Translated the call for papers into French, created the official website, and disseminated the information through email', 'Co-created the panels and facilitated the day of organization of the conference'],
+  },
+  {
+    year: '2020-2021',
+    bold: 'Co-President, ',
+    italic: 'Queen’s University GHSA',
+    bullets: ['Oversaw the running and planning of the association, as well as represented and advocated for the needs of Graduate History Student’s Association members at Queen’s University.', 'Facilitated a monthly meeting for members, organizing elections, attending department meetings, and acted as a liaison between graduate students and various university institutions.', 'Conducted a survey on the status of Graduate history students at Queen’s and created a 15-page document detailing results'],
+  },
+  {
+    year: '2019-2020',
+    bold: 'Vice President of Social, ',
+    italic: 'Queen’s University GHSA',
+    bullets: ['Planned and facilitated social events for the graduate history students at Queen’s University', 'Planned weekly get-togethers, a holiday party, and an online trivia event when COVID-19 required the cessation of all in-person gatherings.'],
+  },
+];

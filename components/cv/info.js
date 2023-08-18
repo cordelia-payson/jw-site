@@ -93,3 +93,11 @@ export const volunteer = [
     bullets: ['Planned and facilitated social events for the graduate history students at Queen’s University', 'Planned weekly get-togethers, a holiday party, and an online trivia event when COVID-19 required the cessation of all in-person gatherings.'],
   },
 ];
+
+// articles in progress
+export const articles = [
+  {
+    line: '“A Cultural Biography of the Green Lantern Building: Liminal Space and Cultural Forgetting”',
+    bullet: '',
+  },
+];

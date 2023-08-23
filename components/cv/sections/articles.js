@@ -1,4 +1,6 @@
 import Title from '../title.js';
+import Bullet from '../bullet.js';
+import Line from '../line.js';
 
 function Articles() {
   return (

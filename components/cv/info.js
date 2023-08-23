@@ -1,3 +1,6 @@
+import Bullet from './bullet.js';
+import Line from './line.js';
+
 // education
 export const york = {
   year: '2021-Current',
@@ -95,11 +98,10 @@ export const volunteer = [
 ];
 
 // publications
-
 export function Publication1() {
   return (
     <div className="ml-14 -indent-14 max-w-2xl">
-      Wilton, Jessica. “Laughing at Everyone: An Analysis of Satire in Ilf and Petrov`&apos;`s
+      Wilton, Jessica. “Laughing at Everyone: An Analysis of Satire in Ilf and Petrov&apos;s
       {' '}
       <em>
         The Little
@@ -126,3 +128,24 @@ export function Publication2() {
 }
 
 // articles in progress
+function Article1() {
+  return (
+    <div className="ml-14 max-w-2xl flex flex-col">
+      This article explores the many lives of a building in Halifax, including as a significant
+      queer space in the 1980s. I am preparing it for submission to the
+      {' '}
+      <em>
+        Journal of the History of
+        Sexuality
+      </em>
+      .
+    </div>
+  );
+}
+
+export const articles = [
+  {
+    line: '“A Cultural Biography of the Green Lantern Building: Liminal Space and Cultural Forgetting”',
+    Article1,
+  },
+];

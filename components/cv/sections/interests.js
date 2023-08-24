@@ -9,7 +9,6 @@ function Interests() {
       <div className="">
         {interests.map((interest) => <Bullet bullet={interest} />)}
       </div>
-
     </div>
   );
 }

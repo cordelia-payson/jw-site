@@ -104,3 +104,6 @@ export const memberships = [
     line: 'Member, GLBT Historical Society',
   },
 ];
+
+// languages
+export const languages = ['Fluent in English and proficient in French (DELF B2 certificate)', 'Conversational in Spanish with some reading knowledge'];

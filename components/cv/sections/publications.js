@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
 import Title from '../title.js';
-import Line from '../line.js';
 
 function Publication() {
   return (

@@ -7,6 +7,7 @@ import Professional from '../components/cv/sections/professional.js';
 import Volunteer from '../components/cv/sections/volunteer.js';
 import Publications from '../components/cv/sections/publications.js';
 import Articles from '../components/cv/sections/articles.js';
+import Presentations from '../components/cv/sections/presentations.js';
 
 function CV() {
   return (
@@ -24,6 +25,7 @@ function CV() {
             <Volunteer />
             <Publications />
             <Articles />
+            <Presentations />
           </div>
         </div>
       </div>

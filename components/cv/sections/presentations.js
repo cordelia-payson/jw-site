@@ -1,5 +1,7 @@
 /* eslint-disable max-len */
 import Title from '../title.js';
+import Indent from '../indent.js';
+import { presentations } from '../info.js';
 
 function Presentations() {
   return (
@@ -15,6 +17,8 @@ function Presentations() {
         .” The CLGBT History Queer History Conference, San
         Francisco CA, June 2022.
       </div>
+
+      {presentations.map((text) => <Indent text={text} />)}
     </div>
   );
 }

@@ -96,3 +96,11 @@ export const volunteer = [
 
 // presentations
 export const presentations = ['Wilton, Jessica. “Introduction to Archival Practices in the LGBT Community.” A Conversation About LGBT Seniors Archives in the Atlantic Region Webinar, Halifax NS, August 2021.', 'Wilton, Jessica. “History on Fire: Smoke Memory and Understanding the Past Through Iconic Photographs.” Context & Meaning XIX: Hindsight 20/20 Conference, Kingston ON, January 2020.', 'Wilton, Jessica. “Memory in Motion: Smoke Memory and Historical Investigation in the Viral-Image Age.” 21st Annual History Across the Disciplines Conference. Investigating Movement: People and Ideas in Motion, Halifax NS, March 2019.'];
+
+// memberships
+export const memberships = [
+  {
+    year: '2022-Present',
+    line: 'Member, GLBT Historical Society',
+  },
+];

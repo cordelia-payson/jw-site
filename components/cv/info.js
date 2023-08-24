@@ -128,24 +128,24 @@ export function Publication2() {
 }
 
 // articles in progress
-function Article1() {
+export function Article1() {
   return (
-    <div className="ml-14 max-w-2xl flex flex-col">
-      This article explores the many lives of a building in Halifax, including as a significant
-      queer space in the 1980s. I am preparing it for submission to the
-      {' '}
-      <em>
-        Journal of the History of
-        Sexuality
-      </em>
-      .
+    <div>
+      <Line line="“A Cultural Biography of the Green Lantern Building: Liminal Space and Cultural Forgetting”" />
+      <div className="ml-14 max-w-2xl">
+        This article explores the many lives of a building in Halifax, including as a significant
+        queer space in the 1980s. I am preparing it for submission to the
+        {' '}
+        <em>
+          Journal of the History of
+          Sexuality
+        </em>
+        .
+      </div>
     </div>
   );
 }
 
-export const articles = [
-  {
-    line: '“A Cultural Biography of the Green Lantern Building: Liminal Space and Cultural Forgetting”',
-    Article1,
-  },
-];
+export const articles = {
+  article: '“A Cultural Biography of the Green Lantern Building: Liminal Space and Cultural Forgetting”',
+};

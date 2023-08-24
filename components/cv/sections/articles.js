@@ -1,12 +1,12 @@
 import Title from '../title.js';
-import { articles } from '../info.js';
+import { Article1 } from '../info.js';
 
 function Articles() {
   return (
     <div className="flex flex-col ml-0">
       <Title title="Articles in Progress" />
       <div className="flex flex-col">
-        {articles[0].Article1}
+        <Article1 />
       </div>
     </div>
   );

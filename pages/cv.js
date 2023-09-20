@@ -14,9 +14,9 @@ import Languages from '../components/cv/sections/languages.js';
 function CV() {
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center overflow-x-scroll">
         <div>
-          <h1 className="text-4xl w-max m-4">Curriculum Vitae</h1>
+          <h1 className="text-4xl m-4">Curriculum Vitae</h1>
         </div>
         <div className="min-h-screen m-6">
           <div className="flex flex-col">

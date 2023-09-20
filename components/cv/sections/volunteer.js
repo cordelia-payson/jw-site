@@ -6,7 +6,7 @@ import { volunteer } from '../info.js';
 
 function Volunteer() {
   return (
-    <div className="flex flex-col ml-0 mb-4">
+    <div className="flex flex-col mb-4">
       <Title title="Activism, Leadership, and Volunteer Experience" />
       <div className="flex flex-col">
         {volunteer.map((job) => (

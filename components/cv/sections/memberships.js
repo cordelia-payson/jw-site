@@ -5,7 +5,7 @@ import { memberships } from '../info.js';
 
 function Memberships() {
   return (
-    <div className="flex flex-col ml-0 mb-4">
+    <div className="flex flex-col mb-4">
       <Title title="Memberships" />
       {memberships.map(((membership) => (
         <div className="flex flex-row">

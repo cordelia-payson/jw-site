@@ -6,7 +6,7 @@ import { professional } from '../info.js';
 
 function Professional() {
   return (
-    <div className="flex flex-col ml-0 mb-4">
+    <div className="flex flex-col mb-4">
       <Title title="Professional & Academic Experience" />
       <div className="flex flex-col">
         {professional.map((job) => (

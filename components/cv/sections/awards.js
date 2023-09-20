@@ -5,7 +5,7 @@ import { awards } from '../info.js';
 
 function Awards() {
   return (
-    <div className="flex flex-col ml-0">
+    <div className="flex flex-col ml-0 mb-4">
       <Title title="Awards and Honours" />
       <div className="flex flex-col">
         {awards.map((award) => (

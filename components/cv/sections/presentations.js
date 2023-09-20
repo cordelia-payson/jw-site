@@ -5,7 +5,7 @@ import { presentations } from '../info.js';
 
 function Presentations() {
   return (
-    <div className="flex flex-col ml-0">
+    <div className="flex flex-col ml-0 mb-4">
       <Title title="Publications" />
 
       <div className="ml-14 -indent-14 max-w-2xl">

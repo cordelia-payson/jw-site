@@ -4,7 +4,7 @@ import Line from '../line.js';
 
 function Articles() {
   return (
-    <div className="flex flex-col ml-0">
+    <div className="flex flex-col ml-0 mb-4">
       <Title title="Articles in Progress" />
       <div className="flex flex-col">
 

@@ -6,7 +6,7 @@ import { education } from '../info.js';
 
 function Education() {
   return (
-    <div className="flex flex-col ml-0">
+    <div className="flex flex-col ml-0 mb-4">
       <Title title="Education" />
       <div className="flex flex-col">
         {education.map((school) => (

@@ -1,12 +1,12 @@
 import Title from '../title.js';
 import Year from '../year.js';
-import Subtitle from '../subtitle.js';
+import Subtitle from '../subTitle.js';
 import Bullet from '../bullet.js';
 import { volunteer } from '../info.js';
 
 function Volunteer() {
   return (
-    <div className="flex flex-col ml-0">
+    <div className="flex flex-col ml-0 mb-4">
       <Title title="Activism, Leadership, and Volunteer Experience" />
       <div className="flex flex-col">
         {volunteer.map((job) => (

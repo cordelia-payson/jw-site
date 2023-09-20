@@ -1,6 +1,6 @@
 import Title from '../title.js';
 import Year from '../year.js';
-import Subtitle from '../subtitle.js';
+import Subtitle from '../subTitle.js';
 import Bullet from '../bullet.js';
 import { education } from '../info.js';
 

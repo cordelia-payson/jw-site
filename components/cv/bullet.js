@@ -1,6 +1,8 @@
+import HeartIcon from '../shared/heartIcon.js';
+
 function Bullet({ bullet }) {
   return (
-    <div className="m-1 max-w-2xl">{bullet}</div>
+    <li className="m-1 max-w-2xl">{bullet}</li>
   );
 }
 
